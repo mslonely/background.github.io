@@ -1,0 +1,207 @@
+.visily-export{
+    display: flex;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    /* width:84%; */
+    padding: 36px 40px 0 40px;
+}
+.content h4{
+    font-size: 13px;
+}
+.content h6{
+    font-size: 11px;
+    color: hsl(220deg 3% 64%);
+}
+.content{
+    line-height:0;
+}
+.top-content{
+    line-height:6px;
+}
+.top-content h1{
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.top-content p{
+    color: hsl(230deg 3% 61%);
+    font-size: small;
+    font-weight: 500;
+}
+.buttons button{
+    font-size: 10px;
+    font-weight: 500;
+    padding: 7px 19px;
+    border-radius: 3px;
+    cursor:pointer;
+}
+.buttons button:nth-child(1){
+    color:hsl(240deg 2% 59%);
+    border: 1px solid hsl(228deg 3% 67%);
+    background: none;
+}
+.buttons button:nth-child(1):hover{
+    background:hsl(186deg 99% 41%);
+    border:none;
+    color:white;
+    border:1px solid hsl(186deg 99% 41%);
+}
+.buttons button:nth-child(2){
+    background:hsl(186deg 99% 41%);
+    border:none;
+    color:white;
+    border:1px solid hsl(186deg 99% 41%);
+    margin-left:5px;
+}
+.buttons button:nth-child(2):hover{
+    color:hsl(240deg 2% 59%);
+    border: 1px solid hsl(228deg 3% 67%);
+    background: none;
+}
+.image img{
+    cursor:pointer;
+    margin-top: 25px;
+}
+.picture{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+/* pie-chart */
+.pie-chart{
+    width: 180px;
+    height: 87px;
+    /* border:1px solid red; */
+    position:relative;
+    font-size:20px;
+    color:hsl(259deg 80% 62%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-weight: 800;
+    left: 14px;
+    cursor:pointer;
+}
+.pie-chart:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 174px;
+    height: 174px;
+    border: 26px solid;
+    box-sizing: border-box;
+    border-color: hsl(259deg 80% 62%) hsl(260deg 65% 88%) hsl(260deg 45% 48%) hsl(259deg 80% 62%);
+    transform: rotate(-11deg);
+    border-radius: 50%;
+}
+.content.one{
+    text-align: center;
+}
+.content.one p{
+    line-height: 17px;
+    font-size: 11px;
+    text-align: center;
+    color: hsl(223deg 3% 46%);
+    font-weight: 600;
+    width: 202px;
+}
+.top-left{
+    width: 14%;
+    border: 3px solid hsl(0deg 0% 98%);
+    width: 204px;
+    height: 204px;
+    padding: 33px 20px 0px 20px;
+    border-radius:5px;
+}
+.content.one h4{
+    width: 210px;
+}
+/* buttons-one */
+.buttons.one{
+    width:202px;
+}
+.buttons.one button{
+    font-size: 9px;
+    font-weight: 500;
+    padding: 5px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.buttons.one button:nth-child(1){
+    color:hsl(240deg 2% 59%);
+    /* border: 1px solid hsl(228deg 3% 67%); */
+    background: none;
+}
+.buttons.one button:nth-child(1):hover{
+    background:hsl(186deg 99% 41%);
+    border:none;
+    color:white;
+    border:1px solid hsl(186deg 99% 41%);
+}
+.buttons.one button:nth-child(2){
+    background: hsl(255deg 67% 98%);
+    border: none;
+    color: hsl(257deg 39% 64%);
+    border: 1px solid hsl(255deg 67% 98%);
+    margin-left: 5px;
+}
+.buttons.one button:nth-child(2):hover{
+    color:hsl(240deg 2% 59%);
+    border: 1px solid hsl(228deg 3% 67%);
+    background: none;
+}
+.rightside{
+    width:84%;
+}
+.line-content{
+
+}
+.line-content h5{
+    margin:0;
+    font-size: 13px;
+}
+.line-content span{
+    font-size: 11px;
+    color: hsl(220deg 3% 64%);
+    font-weight:700;
+}
+.line-content{
+    line-height:13px;
+}
+.left-line{
+    display: flex;
+    align-items: center;
+    gap:9px;
+}
+.img-line img{
+    width:37px;
+    cursor:pointer;
+}
+.right-line span{
+    color: hsl(240deg 1% 67%);
+    font-size: 11px;
+    font-weight: 600;
+}
+.right-line{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.right-bottom{
+    padding: 22px 40px 0 40px
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid hsl(0deg 0% 96%);
+    height: 55px;
+    padding: 4px 0;
+}
+.line.one{
+    border:none;
+}

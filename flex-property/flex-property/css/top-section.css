@@ -1,0 +1,67 @@
+.top-section h6{
+    color: hsl(0deg 72% 60%);
+    font-size: 13px;
+    margin:0;
+}
+.top-section h5{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: monospace;
+    /* border-bottom: 1px solid; */
+    /* width: 12%; */
+}
+.channel-name{
+    line-height:0px;
+    border-bottom: 1px solid hsl(0deg 0% 90%);
+    width: 17%;
+    height: 35px;
+}
+.overall-sections{
+    padding: 2% 1.5%;
+    border: 1px solid;
+    padding-bottom:2%;
+}
+.waba{
+    line-height:22px;
+    margin-top: 2%;
+}
+.waba span{
+    font-size: 11px;
+    color: hsl(219deg 7% 55%);
+    font-weight: 700;
+}
+.grey-line{
+    font-size: 11px;
+    color: hsl(222deg 7% 63%);
+    font-weight: 700;
+}
+.b-box h4{
+    color: hsl(212deg 85% 54%);
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 3%;
+    cursor:pointer;
+}
+.b-box{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid hsl(215deg 29% 92%);
+    width: 27%;
+    height: 36px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 9px 4px hsl(225deg 44% 96%);
+    margin-top:15px;
+}
+.b-box img{
+    margin-top:5px;
+}
+.leftside-pn{
+    line-height: 22px;
+    margin-top: 2%;
+}
+.leftside-pn span{
+    font-size: 11px;
+    color: hsl(219deg 7% 55%);
+    font-weight: 700;
+}

@@ -1,0 +1,222 @@
+.whatsapp{
+    display:flex;
+    align-items:center;
+    gap:1%;
+    background-color:hsl(216deg 38% 97%);
+    border-bottom: 2px solid hsl(0deg 0% 92%);
+    padding-left:2%;
+}
+.whatsapp p{
+    font-weight: 700;
+    font-size: 14px;
+}
+.middle-section{
+    /* padding: 0% 2% 1% 2%; */
+    border: 2px solid hsl(0deg 0% 92%);
+    border-radius: 3px;
+    margin:1.5% 0;
+    padding-bottom:1%;
+}
+.business h1{
+    font-size: 13px;
+    color: hsl(221deg 8% 45%);
+}
+.business{
+    display: flex;
+    align-items: center;
+}
+.business img{
+    width:18px;
+}
+.second-line{
+    display: flex;
+    gap: 3%;
+    padding: 0 0 0 66px;
+    border-bottom: 3px solid hsl(200deg 27% 98%);
+}
+.radio-two h3{
+    font-size: 15px;
+    color: hsl(0deg 0% 35%);
+    line-height:0;
+}
+.input{
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+}
+.radio-two span{
+    color: hsl(222deg 6% 69%);
+    font-weight: 500;
+    font-size: 14px;
+}
+.third-line{
+    /* margin-top:1%; */
+    display: flex;
+    gap: 118px;
+    padding: 1% 2%;
+    border-bottom: 2px solid hsl(216deg 33% 97%);
+}
+.approved{
+    color: hsl(133deg 59% 42%);
+    border: 2px solid hsl(134deg 42% 90%);
+    font-weight: 600;
+    font-size: 12px;
+    /* padding: 4px 7px; */
+    background-color: hsl(143deg 44% 96%);
+    height: 30px;
+    width: 77px;
+    border-radius:3px;
+}
+.pending{
+    color: hsl(26deg 100% 51%);
+    border: 2px solid hsl(25deg 100% 94%);
+    font-weight: 600;
+    font-size: 12px;
+    /* padding: 4px 7px; */
+    background-color: hsl(24deg 100% 97%);
+    height: 30px;
+    width: 77px;
+    border-radius:3px;
+}
+.bar p{
+    font-size: 13px;
+    font-weight: 500;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    white-space:nowrap;
+}
+.bar img{
+    width:11%;
+}
+.verify{
+    border: none;
+    background: none;
+    color: hsl(212deg 85% 63%);
+    font-weight: 600;
+    padding: 0 0 0 1%;
+}
+.third-line-three{
+        margin-top:1%;
+        display: flex;
+        gap: 118px;
+        padding:0 2%;
+        border-bottom: 2px solid hsl(216deg 33% 97%);
+        padding-bottom:1%;
+}
+.third-line-five{
+    margin-top:1%;
+    display: flex;
+    gap: 118px;
+    padding-left:2%;
+    
+}
+.approved-three{
+    color: hsl(133deg 59% 42%);
+    border: 2px solid hsl(134deg 42% 90%);
+    font-weight: 600;
+    font-size: 12px;
+    /* padding: 4px 7px; */
+    background-color: hsl(143deg 44% 96%);
+    height: 30px;
+    width: 77px;
+    border-radius:3px;
+    margin-left: 7px
+}
+.pending-three{
+    color: hsl(26deg 100% 51%);
+    border: 2px solid hsl(25deg 100% 94%);
+    font-weight: 600;
+    font-size: 12px;
+    /* padding: 4px 7px; */
+    background-color: hsl(24deg 100% 97%);
+    height: 30px;
+    width: 77px;
+    border-radius:3px;
+    margin-left:3px;
+}
+.bar-five p{
+    font-size: 13px;
+    font-weight: 500;
+}
+.bar-five{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    white-space:nowrap;
+    margin-left:33px;
+}
+.bar-five img{
+    width:11%;
+}
+.business-one h1{
+    font-size: 13px;
+    color: hsl(221deg 8% 45%);
+}
+.business-one{
+    display: flex;
+    align-items: center;
+    position:relative;
+}
+.business-one img{
+    width:18px;
+}
+.latest p{
+    background-color: hsl(228deg 22% 28%);
+    color: white;
+    font-size: 11px;
+    padding: 4px 11px;
+    font-weight: 400;
+    border-radius: 4px;
+    position:absolute;
+    white-space:nowrap;
+}
+.latest{
+    position:relative;
+    position: absolute;
+    left: 138px;
+    top: 24px;
+    visibility: hidden;
+}
+.transform{
+    position:absolute;
+    content:"";
+    width: 7px;
+    height: 7px;
+    background-color: hsl(228deg 22% 28%);
+    transform: rotate(45deg);
+    top:8px;
+    left:41px;
+}
+.business-one:hover .latest{
+    visibility: visible;
+}
+.rightside-pn input{
+    font-size: 11px;
+    /* color: hsl(215deg 10% 62%); */
+    font-weight: 700;
+    border:none;
+}
+.rightside-pn input::placeholder{
+    color: hsl(215deg 10% 62%);
+}
+.rightside-pn{
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+    border-bottom: 2px solid hsl(213deg 27% 92%);
+    width: 13%;
+    height: 23px;
+    width: 184px;
+    margin-right: 4px;
+}
+.whats-pn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.middle-section button{
+    cursor:pointer;
+}
