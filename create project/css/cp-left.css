@@ -1,0 +1,60 @@
+.cp-left{
+    background-color:hsl(200deg 48% 17%);
+    color:white;
+    /* width:29%; */
+    text-align:center;
+    height:900px;
+}
+.cp-leftside{
+    width:100%;
+}
+.cp-left .logos{
+    width:26%;
+}
+.one-line{
+    display: grid;
+    grid-template-columns: 10% 54%;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: center;
+    width:84%;
+    border-radius:0px 20px 20px 0px;
+    gap: 7px;
+    font-size: 14px;
+    background-image: linear-gradient(hsl(186deg 80% 42%),#2cbab2, #41c2a3);
+    
+}
+.one-line-one{
+    display: grid;
+    grid-template-columns: 10% 54%;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: center;
+    width:84%;
+    border-radius:0px 20px 20px 0px;
+    gap: 7px;
+    font-size: 14px;
+}
+.logos{
+    padding:18% 0;
+}
+.one-line img{
+    width:92%;
+}
+.one-line-one img{
+    width:92%;
+}
+.one-lines{
+    display:grid;
+    row-gap:3%;
+}
+.one-line-one:hover{
+    background-image: linear-gradient(hsl(186deg 80% 42%),#2cbab2, #41c2a3);
+}
+.cr>input{
+    accent-color:hsl(186deg 92% 41%);
+    color:white;
+}
+.cr>input:checked:before{
+    background-color:green;
+    }

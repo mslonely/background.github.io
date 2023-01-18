@@ -1,0 +1,124 @@
+.cp-top-bar{
+    background-color:hsl(204deg 24% 96%);
+}
+.cp-top-bar{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding:0 3%;
+    justify-content: space-between;
+}
+.cp-rightside{
+    width:100%;
+}
+.top-bar-images{
+    display: grid;
+    grid-template-columns: repeat(2,4%);
+    align-items: center;
+    gap:56%;
+}
+.top-bar-images img{
+    /* width:15px; */
+}
+.project-name{
+    font-size:12px;
+    padding:0 16%;
+}
+.project-name input{
+    width: 49%;
+    height:23px;
+    border: 1px solid hsl(187deg 61% 62%);
+    border-radius: 3px;
+}
+.project-name p{
+    color: hsl(255deg 2% 49%);
+    font-weight: 400;
+}
+.cp-right-bottom{
+    /* padding:0 16%; */
+    margin-top:1%;
+}
+.frameworks{
+    color: hsl(208deg 9% 57%);
+}
+.sel-frame{
+    font-size: 13px;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    align-items: center;
+    padding:0 6%;
+}
+.image-self img{
+    width:100%;
+}
+.image-self p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.image-self{
+    display: grid;
+    /* width: 12%; */
+    grid-template-columns: 21% auto;
+    gap: 15px;
+    border: 1px solid hsl(207deg 24% 93%);
+    align-items: center;
+    padding: 3% 3%;
+    border-radius: 3px;
+    white-space:nowrap;
+
+}
+.images-selframe{
+    display: grid;
+    /* width: 56%; */
+    grid-template-columns: repeat(3,23%);
+    gap: 1%;
+    row-gap: 12%;
+    /* padding:0 16%; */
+    padding-left:22%;
+}
+.languages{
+    color:hsl(0deg 0% 59%);
+    font-size:13px;
+    padding-left:24%;
+    padding-top:1%;
+}
+.gitside{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    width: 50%;
+    margin: 7% 9%;
+    align-items:center;
+    gap:1%;
+    border-radius:3px;
+}
+.url{
+    display: grid;
+    grid-template-columns: 26% 10%;
+    align-items: center;
+    white-space: nowrap;
+}
+.url img{
+    width:79%;
+}
+.url1{
+    display: grid;
+    grid-template-columns: 26% 10%;
+    align-items: center;
+    white-space: nowrap;
+    background-image: linear-gradient(hsl(186deg 80% 42%),#2cbab2, #41c2a3);
+    color:white;
+    font-size:12px;
+}
+.url1 img{
+    width:79%;
+}
+.url{
+    display: grid;
+    grid-template-columns: 26% 10%;
+    align-items: center;
+    white-space: nowrap;
+    /* border: 1px solid; */
+    padding: 0 10px;
+    color:white;
+    font-size:12px;
+    border:1px solid;
+}
