@@ -1,0 +1,43 @@
+.right{
+    height: 425px;
+    background-image: linear-gradient(to top, #a0cf00, #008a1c);
+    /* position: relative; */
+    padding-top: 156px;
+    /* padding-left: 39px; */
+    width: 100%;
+    padding-left: 24%;
+    margin-top: 12%;
+    position:relative;
+}
+.rightside{
+    white-space: nowrap;
+    color: hsl(30deg 2% 41%);
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    /* border: 1px solid; */
+    /* padding: 0px 14px; */
+    line-height: 23px;
+    background-color: white;
+    padding: 3px 23px;
+    width: 492px;
+    height: 36%;
+    border-radius: 17px;
+    display: grid;
+    align-items: center;
+    padding-bottom:11px;
+    position: absolute;
+    top: 61px;
+    right: 92px;
+    box-shadow: -20px 2px 18pt #efefef80;
+}
+.rightside.one{
+      margin-top:33px;
+      top:275px;
+}
+.year{
+    color: hsl(0deg 0% 40%);
+    font-weight: 600;
+    font-size: 13px;
+    font-style:normal;
+}

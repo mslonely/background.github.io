@@ -1,0 +1,16 @@
+.leftside h3{
+    color: hsl(0deg 0% 20%);
+    font-size: 35px;
+    font-weight: bolder;
+    font-style:italic;
+}
+.leftside p{
+    color: hsl(125deg 63% 34%);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top:-21px;
+}
+.leftside{
+    margin-top:27%;
+}

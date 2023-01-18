@@ -1,0 +1,77 @@
+
+@media only screen and (min-width:1024px) {
+    .zoho-overall-div,.zoho-main-container,.zoho-white-section,.zoho-peach-section,.zoho-grey-section{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .white-rightside{
+     
+       display:none;
+    }
+    .menu-bar{
+        display:block;
+    }
+ .zoho-white{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 9px 10px;
+    }
+    .menubar{
+        display: block;
+    }
+    .search-article{
+        width: 85%;
+    }
+    .buttons>button{
+        display: none;
+    }
+
+.bottom-panel{
+    display: grid;
+    grid-template-rows: 100%;
+}
+.zoho-grey{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 44px;
+    width: 96%;
+    margin: 0 auto;
+}
+.arrow{
+    display:none;
+}
+.zoho-greybox{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 1fr auto;
+    gap: 18px;
+    padding-top: 11px;
+    padding-bottom: 27px;
+    border-radius: 22px;
+}
+.zoho-peach{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:0px 15px;
+    
+}
+.zoho-peach-section{
+    padding:33px 0px;
+    
+}
+.search-box{
+    border: 1px solid hsl(16deg 29% 90%);
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 95% 5%;
+    padding: 10px 14px;
+    width: 96%;
+    
+}
+.cat1 {
+    
+     display: none;
+}
+}
