@@ -1,0 +1,11 @@
+.red-button{
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 18px 24px;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-top: 39px;
+    cursor:pointer;
+}

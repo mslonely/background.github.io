@@ -1,0 +1,54 @@
+.section1 .first .buttons{
+    
+    margin-top:10px;
+    
+}
+.button1{
+    background-color:hsl(186deg 51% 57%);
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+    padding:23px;
+    width:170px;
+    border:0;
+    border-radius:5px;
+}
+.button2{
+    background-color:hsl(44deg 94% 59%);
+    color:black;
+    font-size:22px;
+    font-weight:bold;
+    padding:22px;
+    
+    border-radius:5px;
+    
+    text-align:center;
+    margin-left:30px;
+}
+.button3{
+    background-color:hsl(186deg 51% 57%);
+    color:white;
+    font-size:22px;
+    padding:19px;
+    width:180px;
+    border:0;
+    border-radius:5px;
+    
+    margin-top:41px;
+    text-align:center;
+}
+.button4{
+    background-color:hsl(186deg 51% 57%);
+    color:white;
+    font-size:22px;
+    padding:17px;
+    width:170px;
+    border:0;
+    border-radius:5px;
+    
+    margin-top:50px;
+    text-align:center;
+ }
+ .section4 .service-button{
+     text-align:right;
+ }

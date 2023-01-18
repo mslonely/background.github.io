@@ -1,0 +1,37 @@
+h1{
+    font-size: 70px;
+    /* font-weight:200; */
+   line-height: 60px;
+}
+
+h2 {
+   font-size: 35px;
+   line-height: 52px;
+}
+
+h3 {
+   font-size: 29px;
+   /* line-height: 48px; */
+   /* padding-left:25px; */
+   /* color:#5065f2; */
+   /* font-weight:bold; */
+
+}
+
+h4 {
+   font-size: 28px;
+   line-height: 36px;
+}
+
+h5 {
+   font-size: 22px;
+   /* line-height: 28px; */
+   font-weight:400;
+   /* margin-top:44px; */
+   /* padding-left:70px; */
+}
+
+h6 {
+   font-size: 19px;
+   line-height: 24px;
+}
