@@ -1,0 +1,44 @@
+button{
+
+    cursor:pointer;
+    display:block;
+    text-decoration:none;
+    
+}
+.button1{
+    display:flex;
+    justify-content:center;
+    margin-top:44px;
+}
+.button1 button{
+    background-color:hsl(18deg 80% 61%);
+    color:white;
+    padding:24px;
+    width: 298px;
+    box-shadow: beige;
+    border: none;
+    box-shadow: aliceblue;
+    box-shadow: 0 0 green;
+    font-size: 16px;
+    box-shadow:1px 4px 0px #c7693f;
+
+}
+.button2{
+    display:flex;
+    justify-content:center;
+    margin-top:44px;
+    margin-top:108px;
+}
+.button2 button{
+    background-color:hsl(161deg 44% 58%);
+    color:white;
+    padding:24px;
+    width: 298px;
+    box-shadow: beige;
+    border: none;
+    box-shadow: aliceblue;
+    box-shadow: 0 0 green;
+    font-size: 16px;
+    box-shadow:1px 4px 0px hsl(161deg 32% 49%);
+
+}

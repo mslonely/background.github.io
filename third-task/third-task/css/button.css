@@ -1,0 +1,41 @@
+.nyc-orange-button{
+    width: 185px;
+    padding: 19px 0px;
+    font-weight: 600;
+    border:none;
+    outline:none;
+    font-size: 16px;
+    background-color:hsl(34deg 87% 70%);
+    border-radius:5px;
+    background-image: linear-gradient(to right,hsl(34deg 89% 69%), hsl(34deg 88% 77%));
+    cursor:pointer;
+}
+.nyc-more{
+    background-color:hsl(1deg 78% 58%);
+    border: none;
+    padding: 16px 40px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top:17px;
+    cursor:pointer;
+}
+.nyc-more:hover{
+    background-color:firebrick;
+}
+.red-button{
+    margin-top:23px;
+}
+.red-button button{
+    background-color: red;
+    border: none;
+    padding: 14px 30px;
+    white-space: nowrap;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.red-button button:hover{
+    background-color:firebrick;
+}

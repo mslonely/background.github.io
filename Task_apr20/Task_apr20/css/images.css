@@ -1,0 +1,12 @@
+.images{
+    display:flex;  
+    margin-top:130px; 
+    /* box-shadow:1px 4px 0px hsl(39deg 64% 72%);  */
+    gap:115px;
+}
+.images2{
+    display:flex;  
+    margin-top:130px; 
+    /* box-shadow:1px 4px 0px hsl(39deg 64% 72%);  */
+    gap:135px;
+}

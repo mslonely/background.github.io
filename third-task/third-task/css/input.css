@@ -1,0 +1,10 @@
+.nyc-input {
+    border: none;
+    outline: none;
+    width: 110px;
+    background:none;
+    padding:3px;
+}
+.nyc-input.email, .nyc-input.name{
+    width: 545px;
+}

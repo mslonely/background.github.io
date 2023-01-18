@@ -1,0 +1,346 @@
+
+.nyc-header-section{
+    background-image:url('../images/1.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+    height:908px;
+}
+.nyc-nav-section{
+    background-color:white;
+
+}
+.nyc-nav .nav-bar{
+    display:flex;
+    padding: 16px 93px;
+    justify-content: space-between;
+    align-items:center;
+}
+.nyc-nav .nav-bar a{
+    text-decoration:none;
+    color:black;
+}
+.nyc-nav .nav-bar a:hover{
+    text-decoration:underline;
+    color:blue;
+}
+.nyc-nav .left{
+    font-size:31px;
+    font-weight:bold;
+}
+.nyc-nav .right{
+    display:flex;
+    gap:57px;
+    font-size:14px;
+}
+.nyc-center-section{
+    background-color:white;
+    padding-top: 153px;
+}
+.nyc-twosides-center .right-center{
+    height:802px;
+}
+.nyc-left-three .left-content{
+    color:white;
+    padding:118px 93px;
+    line-height:53px;
+}
+.nyc-left-three .left-content h3{
+    font-size:31px;
+    font-weight:500;
+    margin-top:67px;
+}
+.nyc-header .nyc-left-three{
+    display:flex;
+    justify-content:space-between;
+}
+.nyc-left-three .right-side-header{
+    display:flex;
+    flex-direction:column;
+    margin-top:138px;
+    align-items:flex-end;
+    width:90px;
+}
+
+.nyc-left-three .image2{
+    display:flex;
+}
+.nyc-left-three .box{
+    background-color: white;
+    width: 111px;
+    height: 77px;
+    padding: 8px 13px;
+    line-height: 19px;
+}
+.nyc-left-three .image2 img{
+    width: 126px;
+    height: 93px;
+}
+.nyc-left-three .box h5{
+    font-size: 15px;
+    font-weight:bold;
+}
+.nyc-left-three .second-line{
+    font-size:14px;
+    color:grey;
+}
+.nyc-left-three .third{
+    display:flex;
+    gap:21px;
+    margin-top:17px;
+}
+.nyc-left-three.third p{
+    font-size:14px;
+}
+.nyc-left-three .red{
+font-size:18px;
+font-weight:bold;
+color:red;
+}
+.nyc-twosides-center .nyc-center{
+    padding-top:143px;
+    
+}
+.nyc-explore-side .nyc-three-images2{
+    display: flex;
+    gap: 63px;
+    padding: 32px 43px;
+    align-items: center;
+    line-height:50px;
+
+}
+.nyc-three-images2 h6{
+    font-size: 23px;
+    color: #2b2d40;
+    margin-top:29px;
+}
+.nyc-three-images2 p{
+    font-size: 20px;
+    color: hsl(228deg 12% 58%);
+}
+.nyc-explore-side .explore{
+    padding:0px 38px;
+    font-size: 47px;
+    font-weight: bold;
+    color: hsl(235deg 20% 21%);
+
+}
+.nyc-explore-side .paragraph{
+    color:hsl(229deg 14% 56%);
+    line-height: 29px;
+    padding: 11px 39px;
+    font-size: 20px;
+}
+.nyc-twosides-center .nyc-center .img{
+    color:hsl(229deg 14% 56%);
+    line-height: 31px;
+    padding: 9px 0px;
+    font-size: 20px;
+    white-space:nowrap;
+}
+.nyc-twosides-center .nyc-center h6{
+    margin-top: 45px;
+    font-size: 24px;
+    color:hsl(245deg 24% 19%);
+}
+.nyc-center-section .grey-line{
+    height: 2px;
+    background-color: hsl(240deg 15% 87%);
+    width: 627px;
+    display: flex;
+    margin: 62px 293px;
+}
+.nyc-twosides-center .left-center{
+    margin-top:36px;
+}
+ .nyc-leftside-first-center h2{
+    font-size:43px;
+}
+.nyc-leftside-first-center p{
+    font-size:22px;
+   color: hsl(251deg 7% 51%);
+   padding: 12px 0px 33px 0px;
+}
+.nyc-center .nyc-twosides-center{
+    display:flex;
+    padding: 0px 39px;
+    gap: 72px;
+    margin-top: 95px;
+}
+.nyc-leftside-first-center .box1{
+    border: 2px solid hsl(0deg 0% 93%);
+    padding: 20px 18px;
+    width: 521px;
+    display: flex;
+    gap: 9px;
+}
+/* .nyc-leftside-first-center .lgt-input input{
+    border:none;
+    outline:none;
+    width:556px;
+    font-size:16px;
+    color:hsl(240deg 10% 73%);
+/* } */
+ .nyc-leftside-first-center .lgt-input .input-name{
+     border: 2px solid hsl(0deg 0% 93%); 
+     display: flex;
+    align-items: center;
+    border: 1px solid hsl(0deg 0% 93%);
+    padding: 18px 15px;
+    border-radius: 8px; 
+}
+/* .nyc-leftside-first-center .lgt-input input{
+    border:none;
+    outline:none;
+    width:556px;
+    font-size:16px;
+}  */
+.nyc-leftside-first-center .lgt-input{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+} 
+.nyc-leftside-first-center .lgt-text{
+    width: 572px;
+    height: 82px;
+    padding: 18px 19px;
+    border: none;
+    border: 2px solid hsl(0deg 0% 93%);
+    font-size: 14px;
+    font-weight: bold;
+    color: hsl(245deg 11% 59%);
+    border-radius: 6px;
+}
+.nyc-leftside-second-center .contact-section{
+    display: flex;
+    gap: 12px;
+    align-items:center;
+    margin-top:52px;
+}
+.nyc-leftside-second-center .contact-section span{
+    font-size:22px;
+    font-weight:bold;
+}
+.nyc-leftside-second-center .contact-section hr{
+    width: 4px;
+    height: 31px;
+    background-color:hsl(35deg 88% 66%);
+    border:none;
+    margin: 0;
+}
+.email-contact .email{
+    display:flex;
+    align-items:center;
+    line-height: 24px;
+    gap: 24px;
+}
+.emails-side .email.secondline{
+    display: flex;
+    align-items: center;
+    line-height: 24px;
+    margin-top:10px;
+    gap:26px;
+}
+.email.secondline .email-right span{
+    display:block;
+}
+.nyc-center-section .box-image img{
+    background-color: hsl(36deg 90% 89%);
+    padding: 9px 10px;
+    border-radius: 31px;
+}
+.nyc-center-section .email.secondline .box-image img {
+    background-color: hsl(36deg 90% 89%);
+    padding: 11px 14px;
+    border-radius: 31px;
+}
+.nyc-center-section .email-span2{
+    font-weight: bold;
+    font-weight: bold;
+    color:hsl(251deg 11% 60%);
+}
+.nyc-center-section .email-span1{
+    color:hsl(247deg 10% 32%);
+    font-weight:bold;
+}
+.nyc-center-section .email-para{
+    font-size: 16px;
+    font-weight: bold;
+}
+.nyc-leftside-second-center .email-contact{
+    display:flex;
+    gap:56px;
+}
+.nyc-footer-section{
+    background-color: hsl(221deg 84% 17%)
+}
+.nyc-footer{
+    color: hsl(219deg 23% 73%);
+    padding: 27px 0px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+.nyc-footer-section .copywrights{
+    border: 1px solid white;
+    padding: 0px 2px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+.nyc-travelling-details-section .nyc-traveldetails{
+    display: flex;
+    background-color: white;
+    gap: 17px;
+    justify-content: center;
+    padding: 30px 20px;
+    align-items: center;
+    position: absolute;
+    top: 906px;
+    left: 370px;
+    box-shadow: 5px 5px 5px  hsl(0deg 0% 93%);
+}
+.nyc-traveldetails .travelling-from p{
+    font-size:19px;
+    color: hsl(0deg 0% 29%);
+    font-weight: bold;
+}
+.nyc-traveldetails .location-img{
+    cursor:pointer;
+    width:12px;
+}
+.nyc-traveldetails .span1{
+    color: hsl(0deg 0% 25%);
+    font-size:15px;
+}
+.nyc-traveldetails .places{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 2px solid hsl(0deg 0% 91%);
+    padding: 12px 12px;
+    background-color: hsl(0deg 0% 99%);
+    margin-top:9px;
+    cursor:pointer;
+}
+.nyc-traveldetails .date{
+        display:flex;
+        align-items:center;
+        gap:45px;
+        display: flex;
+    border: 2px solid hsl(0deg 0% 91%);
+    padding: 7px 8px;
+    background-color: hsl(0deg 0% 99%);
+    margin-top:9px;
+    cursor:pointer;
+}
+.nyc-traveldetails .places select{
+    border:none;
+    background:none;
+    width:81px;
+    cursor:pointer;
+}
+.nyc-leftside-second-center{
+    margin-top:25px;
+}
+.nyc-leftside-second-center .emails-side{
+    margin-top:27px;
+}

@@ -1,0 +1,210 @@
+.section1{
+    background-color:hsl(283deg 32% 46%);
+    padding:112px;
+}
+.top-bar{
+    display:flex;
+    justify-content:space-around;
+    /* padding-top:65px; */
+}
+.top-bar h3{
+    color:white;
+    font-size:47px;
+}
+.right-side{
+    display:flex;
+    gap:27px;
+}
+a{
+
+    cursor:pointer;
+    display:block;
+    text-decoration:none;
+    
+}
+.right-side a{
+    color:white;
+    text-decoration:none;
+    padding:10px;
+    font-size:17px;
+}
+.right-side a:hover{
+    background-color:hsl(280deg 35% 35%);
+    padding:10px 10px;
+}
+.heading-h3 h3{
+    color:white;
+    text-align:center;
+    font-size:38px;
+    padding-top:140px;
+}
+/* section2 */
+.section2{
+    background-color:hsl(161deg 44% 58%);
+    padding:150px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.cuda-services{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.cuda-services h3{
+    color:white;
+    font-size:36px;
+    /* border-bottom:1px solid hsl(161deg 32% 49%); */
+}
+.cuda-services p{
+    margin-top:19px;
+    font-size:20px;
+    width:615px;
+    color:white;
+    display:flex;
+    align-items:center;
+}
+.border-line{
+height:4px;
+width:90px;
+background-color:hsl(161deg 32% 49%);
+    margin-top: 10px;
+}
+.cuda-4paras{
+    display:flex;
+    /* justify-content:space-around; */
+    color:white;
+    margin-top:112px;
+    gap:50px;
+}
+.cuda-para h6{
+    font-size:21px;
+}
+.cuda-para p{
+    margin-top:22px;
+    font-size:17px;
+    line-height:23px;
+}
+ .branding-p p{
+    width:300px;
+}
+.design-p p{
+    width:199px;
+}
+.development-p p{
+    width:212px;
+}
+.rocket-p p{
+    width:189px;
+}
+.section3{
+    background-color:hsl(40deg 94% 79%);
+    padding:112px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.border-line2{
+    height:4px;
+    width:90px;
+    background-color:hsl(40deg 66% 70%);
+        margin-top: 10px;
+    }
+    .cuda-portfolio{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .cuda-portfolio h3{
+        color:hsl(0deg 0% 22%);
+        font-size:36px;
+    }
+    .section3 p{
+        margin-top:19px;
+        font-size:19px;
+        color:hsl(240deg 2% 23%);
+        line-height:27px;
+    
+    }
+    .link2{
+        display:flex;
+        gap:11px;
+        margin-top:35px;
+        
+    }
+    .link2 a{
+    
+
+        color:hsl(240deg 2% 23%);
+        text-decoration:none;
+        padding:10px;
+        font-size:17px;
+        gap:10px;
+        padding:10px 20px;
+        border-radius:5px;
+        background-color:hsl(40deg 72% 72%);
+        
+    }
+    .link2 a:hover{
+        background-color:white;
+       
+    }
+    .section4{
+        background-color:hsl(225deg 44% 42%);
+        padding:112px;
+        text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+    }
+    .cuda-getin{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        position:relative;
+    }
+    .cuda-getin h3{
+        color:white;
+        font-size:36px;
+        /* border-bottom:1px solid hsl(161deg 32% 49%); */
+    }
+    .cuda-getin p{
+        margin-top:19px;
+        font-size:20px;
+        width:615px;
+        color:white;
+        display:flex;
+        /* align-items:center; */
+        white-space:nowrap;
+        position:absolute;
+        top:60px;
+        right:-95px;
+    }
+    .border-line3{
+    height:4px;
+    width:90px;
+    background-color:hsl(225deg 49% 30%);
+        margin-top: 10px;
+    }
+    .cuda-input{
+        margin-top:120px;
+        display:flex;
+        position:relative;
+    }
+    .cuda-input input{
+        width:350px;
+        padding:16px;
+        color:white;
+        border-radius:5px;
+        border:none;
+        background-color:hsl(225deg 49% 30%);
+    
+
+    }
+.cuda-box1 input{
+    color:white;
+    font-size:15px;
+}
