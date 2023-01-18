@@ -1,0 +1,16 @@
+.blue-part{
+    background:linear-gradient(90deg,#150d49 30%,#491855 100%);
+    width:100%;
+    padding: 1px 0px;
+    color: white;
+    text-align: center;
+    /* height:1%; */
+    font-size:15px;
+    font-weight:500;
+}
+.blue-part a{
+    color:#f5d032;
+}
+.blue-part p{
+    color:white;
+}

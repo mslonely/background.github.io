@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.header-writer {
+    border-left: 2px solid rgb(230, 224, 224);
+    margin-left: 20px;
+}
+
+.menu-icon {
+    margin-left: 20px;
+}
+
+.back,
+.writer {
+    color: gray;
+}
+
+.circle-div {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid rgb(230, 224, 224);
+}
+
+.circle {
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 13px;
+    background-color: white;
+}
+
+.create-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-side {
+    border-left: 1px solid #b6babf;
+    margin-right: 80px;
+}
+
+p {
+    line-height: 0.2;
+    margin-left: 20px;
+}
+
+.writer-integration {
+    width: 90%;
+    background-color: #f1f4f7;
+    border-radius: 7px;
+    padding: 20px;
+    margin-left: 90px;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.sec-1,
+.sec-2,
+.sec-3 {
+    display: flex;
+    justify-content: space-between;
+    width: 363px;
+    padding: 20px;
+    background-color: #f1f4f7;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-left: 75px;
+}
+
+.add {
+    color: blue;
+}
+
+.writer-div {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image-edit-delete {
+    margin-left: 1000px;
+}
+
+.delete {
+    margin-left: 50px;
+}
+
+.drag-drop-image {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.multiple-boxes {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.first-line,
+.second-line {
+    display: flex;
+    gap: 99px;
+    margin-top: 10px;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5 {
+    display: flex;
+    width: 398px;
+    border: 1px solid #efefef;
+    background-color: white;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.box-1,
+.box-2 {
+    border-right: 3px solid blue;
+}
+
+.color {
+    color: rgb(180, 173, 173);
+}
+
+.font-color {
+    font-weight: bold;
+}
+
+.side-border {
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid blue;
+    border-right: 2px solid blue;
+    transform: rotate(50deg);
+    margin-top: 20px;
+    margin-left: -106px;
+    background: white;
+}
+
+.footer {
+    margin-top: 150px;
+    text-align: center;
+    border-top: 1px solid rgb(230, 224, 224);
+}
+
+.doted-box {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 1460px;
+    padding: 20px;
+    border: 1px dashed red;
+    background-color: #fdf1f3;
+}

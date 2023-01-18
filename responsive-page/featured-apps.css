@@ -1,0 +1,9 @@
+.four-boxes{
+    display: grid;
+    grid-template-columns: repeat(2,);
+    grid-template-columns: repeat(2,61%);
+}
+.featured-apps{
+    display: grid;
+    grid-template-columns: repeat(2,29%);
+}
