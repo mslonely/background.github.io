@@ -1,0 +1,134 @@
+.cal-one-top{
+    position: relative;
+}
+.dec-one::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-left: 6px solid hsl(223deg 7% 38%);
+    border-bottom: 7px solid transparent;
+    left: 255px;
+    top:5px;
+    cursor:pointer;
+}
+.dec-one::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-right: 6px solid hsl(223deg 7% 38%);
+    border-bottom: 7px solid transparent;
+    left:235px;
+    top:5px;
+    cursor:pointer;
+}
+.dec-one{
+    font-size: 14px;
+    font-weight: 800;
+}
+.first-third li{
+    font-size: 13px;
+    font-weight: 600;
+    list-style-type:none;
+    cursor:pointer;
+}
+.first-third{
+    padding:0;
+}
+.calender-three{
+    display: grid;
+    grid-template-columns: repeat(7,27px);
+    gap: 13px;
+    text-align: center;
+}
+.week{
+    color:hsl(187deg 52% 53%);
+}
+.grey{
+    color:hsl(280deg 4% 86%);
+}
+.first-third li:nth-child(2){
+    margin-top:5px;
+}
+.first-third{
+    display: grid;
+    grid-template-rows: repeat(6,29px);
+}
+.blue{
+    color:hsl(200deg 30% 41%);
+    background: hsl(184deg 93% 89%);
+    width: 10px;
+    height: 16px;
+    padding: 3px 7px 4px 7px;
+    border-radius: 25px;
+}
+.thick-blue{
+    color:hsl(185deg 71% 82%);
+    background: hsl(185deg 100% 41%);
+    width: 10px;
+    height: 16px;
+    padding: 3px 7px 4px 7px;
+    border-radius: 25px;
+}
+.light-grey{
+    color:hsl(240deg 4% 84%);
+}
+.calender-one{
+    padding: 22px 14px 0 13px;
+    background: hsl(0deg 0% 98%);
+    border-radius: 10px;
+    width: 84%;
+    margin: 8% 0% 0 3%;
+}
+.acti{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    align-items: center;
+    padding: 0 0px 0 24px;
+}
+.acti h4{
+    font-size: 14px;
+    font-weight: bold;
+}
+.acti img{
+    width: 2px;
+}
+.cont1 img{
+    width: 28px;
+}
+.cont2 h4{
+    color: hsl(231deg 10% 14%);
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+}
+.cont2 span{
+    color: hsl(216deg 2% 60%);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 11px;
+}
+.cont2{
+    line-height: 20px;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 39px auto;
+    padding: 12px 0 12px 11px;
+    background: hsl(0deg 0% 98%);
+    width: 84%;
+    margin-left: 6%;
+    border-radius: 5px;
+    margin-top: 9px;
+}
+.activities{
+    border: 1px solid hsl(240deg 9% 96%);
+    width: 91%;
+    margin-left: 11px;
+    margin: 10px 0 0 11px;
+    border-radius: 7px;
+    padding-bottom: 28px;
+}

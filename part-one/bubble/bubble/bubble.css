@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    background-color: rgb(112, 188, 218);
+}
+
+#bobble {
+    margin-top: 150px;
+    width: 250px;
+    height: 100px;
+    margin: auto;
+
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(126, 19, 189);
+    text-shadow: 1px 1px 1px #7e3bbd;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}

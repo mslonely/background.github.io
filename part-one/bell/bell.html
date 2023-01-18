@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bell{
+            width: 34px;
+            animation: bell 1s linear infinite alternate;
+            transform-origin: top;
+            height: 13%;
+            transform: scale(1);
+            position:absolute;
+            top:31%;
+        }
+        .temple{
+            margin: 0 auto;
+            position:relative;
+        }
+        @keyframes bell{
+            from{
+                transform:rotateZ(-30deg)
+            }
+            to{
+                transform: rotateZ(50deg);
+            }
+        }
+        body{
+            display:flex;
+            justify-content: center;
+            /* background-image:url('images/32337-3-temple-photo.png');
+            background-size:auto;
+            background-repeat:no-repeat; */
+        }
+    </style>
+</head>
+<body>
+    <div class="temple">
+        <img src="images/32337-3-temple-photo.png">
+    </div>
+    <img class="bell" src="images/PngItem_5096401.png">
+</body>
+</html>

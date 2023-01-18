@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+.body-contain {
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 2px solid #f1f4f7;
+    border-radius: 5px;
+    padding: 0px 30px;
+    line-height: 20px;
+}
