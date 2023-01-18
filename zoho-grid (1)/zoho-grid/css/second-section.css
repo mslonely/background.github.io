@@ -1,0 +1,54 @@
+.search::placeholder{
+    color:hsl(33deg 10% 78%);
+}
+.search-box select{
+    color:hsl(0deg 0% 61%);
+    border:none;
+    background:none;
+}
+.search-box{
+    border: 1px solid hsl(16deg 29% 90%);
+    width: 222%;
+    justify-content: space-between;
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px 14px;
+    /* width: 10%; */
+    background: white;
+    border-radius: 3px;
+    /* box-shadow: 1px 3px 13px -2px grey; */
+    /* width:10%; */
+}
+.search{
+    border:none;
+    background:none;
+}
+.buttons button{
+    color: hsl(221deg 92% 65%);
+    font-weight: 600;
+    background: white;
+    border: none;
+    height: 26px;
+    font-size: 11px;
+    border-radius: 2px;
+    box-shadow: 0px 5px 10px hsl(20deg 17% 86%);
+    box-shadow: 1px 3px 13px -2px grey;
+}
+.zoho-peach-section{
+    background-color:hsl(21deg 78% 96%);
+    padding:66px 0px;
+    height:88px;
+}
+.zoho-peach{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    align-items: baseline;
+    justify-content: space-around;
+    gap: 204px;
+}
+.search-knowledge p{
+    color:hsl(0deg 0% 51%);
+    font-size: 13px;
+    font-weight: 400;
+}

@@ -1,0 +1,54 @@
+.a-plus span{
+    margin-top: 14px;
+    font-size: 9px;
+}
+.a-plus{
+    display: grid;
+    grid-template-columns: repeat(2,10px);
+}
+.global{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    align-items: center;
+    width: 10px;
+    gap: 3px;
+}
+.global img{
+    width: 15px;
+}
+.white-rightside a{
+    text-decoration:none;
+    color:black;
+    font-size:13px;
+    font-weight:400;
+}
+.white-rightside li{
+    list-style-type:none;
+    border-bottom:2px solid transparent;
+}
+.white-rightside{
+    display: grid;
+    grid-template-columns: 36px 98px 66px 41px 19px 50px;
+    align-items: center;
+    gap: 10px;
+    margin:0;
+    padding:0;
+}
+.zoho-white{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    align-items: center;
+    justify-content: space-around;
+    gap:300px;
+}
+.zoho-white .zoho{
+    width:67px;
+}
+.white-rightside a:hover{
+    color:hsl(25deg 83% 59%);
+    border-bottom:2px solid hsl(25deg 83% 59%);
+    padding-bottom:7px;
+}
+.global span{
+    font-size:13px;
+}
