@@ -1,0 +1,45 @@
+.ceo-image img{
+    width:93%;
+    /* height:300px; */
+}
+.ceo-content{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-top:13%;
+    gap:4%;
+}
+.zoho-corp-ceo{
+    width: 66%;
+    height:400px;
+    margin-left: 14%;
+    background-image:url('../images/zoho-tower-building.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom:6%;
+    margin:0 auto;
+}
+.texts h1{
+    font-size:32px;
+}
+.ceo-image{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    transform: scale(1.5);
+}
+.texts h6{
+    font-size:20px;
+    margin:0;
+}
+.texts p{
+    font-size:14px;
+    line-height:1px;
+    font-weight:400;
+}
+.careers{
+    color: #1e8dcc;
+    text-decoration: none;
+    border: 1px solid #1e8dcc;
+    padding: 7px 34px;
+    border-radius: 2px;
+}

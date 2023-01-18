@@ -1,0 +1,170 @@
+@media (max-width: 1024px){
+   .craft h1 {
+        font-size: 36px;
+        white-space:nowrap;
+
+}
+.craft img{
+    width:8%;
+}
+.zoho-logo{
+    width:14%;
+}
+.zoho-corp-top{
+    /* padding-top:13%; */
+}
+.white-bc p{
+    font-size:12px;
+}
+.our-brands{
+    display:none;
+}
+#zoho-corp-brand{
+    padding-top:4%;
+}
+.yellow-box p{
+    font-size: 20px;
+    width: 522px;
+    font-weight: 500;
+}
+.yellow-box{
+    width:67%;
+    margin-left:3%;
+    padding:1% 7%;
+    padding-bottom:4%;
+}
+.white-box{
+    width:26%;
+    padding:50px 20px;
+    right:3%;
+    top:13%;
+}
+.white-box img{
+    width:140px;
+}
+.white-box p{
+    font-weight:700;
+}
+.image img{
+    width:31px;
+}
+.green-box{
+    width:67%;
+    margin-left:3%;
+    padding:1% 7%;
+    padding-bottom:5%;
+}
+.white-box-two{
+    width:27%;
+    padding: 53px 20px;
+    right:3%;
+}
+.green-box h3{
+    /* font-size:18px; */
+    white-space:nowrap;
+    font-weight:300;
+}
+.image-green img{
+    width:14%;
+}
+.white-box-two img{
+    width:180px;
+}
+.white-box-two p{
+    font-size:18px;
+}
+.grey-box{
+    width:61%;
+    margin-left:3%;
+    padding:60px 100px;
+}
+/* .white-box-three{
+    width:27%;
+    padding:41% 20%;
+    right:3%;
+} */
+.white-box-three img{
+    width:140px;
+    padding-left:23%;
+}
+.white-box-three{
+    width:27%;
+    padding:59px 20px;
+    right:3%;
+    top:4%;
+}
+.grey-box p{
+    width: 713px;
+    font-size: 19px;
+}
+/* .blue-box{
+    padding:50px 100px;
+    width:46%;
+    padding-left:3%;
+} */
+.blue-box{
+    width:61%;
+    margin-left:3%;
+    padding:43px 100px;
+}
+.white-box-four{
+    width:27%;
+    padding:35px 20px;
+    right:3%;
+    top:28%;
+}
+.white-box-four img{
+    width:180px;
+    padding-left:10%;
+}
+.blue-box p{
+    width:592px;
+    font-size:22px;
+    line-height:28px;
+}
+.big-white-box{
+    width:94%;
+    margin-left:3%;
+}
+.paper-box{
+    width:94%;
+    margin-left:3%;
+}
+.content-in{
+    margin-right: 106px;
+    width: 78%;
+}
+.may p{
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    line-height: 33px;
+}
+.zoho-corp-ceo{
+    width:100%;
+    /* margin:0 10%; */
+}
+.ceo-content{
+    gap:4%;
+    padding:14% 8%;
+}
+.ceo-image{
+    margin-left:-4%;
+}
+.ceo-image img{
+    width:93%;
+    /* padng-left:21%; */
+}
+.texts h1{
+    font-size:18px;
+}
+.in-the-news h2{
+    font-size:32px;
+}
+.texts h6{
+    font-size:16px;
+}
+.texts p{
+    font-size:12px;
+}
+}

@@ -1,0 +1,98 @@
+
+.zoho-corp-in{
+    /* text-align:center; */
+    padding:7% 0;
+}.arrows img{
+    width:23px;
+}
+.arrows img:hover{
+    cursor:pointer;
+}
+.in-the-news h2{
+    text-align:center;
+    font-size:54px;
+}
+/* .in-the-news h2::before{
+    width: 264px;
+    background-color: #000;
+    position: absolute;
+    content: "";
+    height: 2px;
+    top: 67px;
+}
+.in-the-news{
+    position:relative;
+}
+.in-the-news h2::after{
+    width: 264px;
+    background-color: #000;
+    position: absolute;
+    content: "";
+    height: 2.5px;
+    top: 73px;
+    left: 632px;
+    
+} */
+.paper-box{
+    background-image:url('../images/support5.png');
+    background-size:cover;
+    margin-left:12%;
+    width:72%;
+    display:grid;
+    margin-top:4%;
+    justify-content: center;
+}
+.content-in{
+    margin: 16% 6px;
+    background-color: white;
+    padding: 60px 70px;
+    width: 80%;
+    margin-left:0;
+}
+.featured-news{
+    color: #f7742c;
+    font-size: 18px;
+}
+.may h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: #5d5d5d;
+    font-family: auto;
+}
+.may p{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 46px;
+    font-family: auto;
+}
+.may p{
+    margin-top:-36px;
+}
+.buttons.one a{
+    padding: 5px 13px;
+    font-size: 16px;
+    font-weight: 600;
+    background: none;
+    border-radius: 2px;
+    text-decoration:none;
+}
+.buttons.one a:nth-child(1){
+    color: #ef662f;
+    border: 1px solid #ef662f;
+}
+.buttons.one a:nth-child(2){
+    color:#1ba028;
+    border:1px solid #1ba028;
+}
+.buttons-in{
+    display:grid;
+    grid-template-columns:90% 10%;
+    align-items:end;
+    justify-content:space-between;
+}
+.arrows img:nth-child(1){
+    transform: rotate(177deg);
+}
+.buttons.one{
+    gap:10px;
+}

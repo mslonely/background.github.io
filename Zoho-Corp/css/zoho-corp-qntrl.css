@@ -1,0 +1,60 @@
+.zoho-corp-qntrl{
+    background-image:url('../images/rangoli3.png');
+    background-size: 5% auto;
+}
+.grey-box{
+    background: #4b4b4b;
+    padding: 145px 100px;
+    padding-right: 25%;
+    width:31%;
+    margin-left: 12%;
+}
+.grey-box p{
+    font-family: 'Roboto Slab';
+    font-size: 24px;
+    color: white;
+    line-height: 40px;
+    font-weight: 600;
+}
+.qntrl a{
+    background: #f0483e;
+    padding: 12px 20px;
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+}
+.corp-qntrl{
+    padding-top:8%;
+}
+.white-box-three{
+    width: 20%;
+    background-color: white;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 16px 3px rgb(136 136 136 / 12%);
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    padding: 75px 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 500;
+    top: 14%;
+    right: 16%;
+}
+.two-boxes-qntrl{
+    position:relative;
+    padding-bottom:7%;
+}
+.white-box-three img{
+    width:228px;
+    padding-left:5%;
+}
+.grey-box p{
+    width:516px;
+}
+.qntrl{
+    margin-top:7%;
+}

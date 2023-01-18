@@ -1,0 +1,90 @@
+.zoho-corp-top{
+    /* background-image:url('zcorpbanner.jpg'); */
+    background-image: url("../images/zcorpbanner.jpg");
+    background-size:cover;
+    color:white;
+    /* background-position:center; */
+    text-align:center;
+    padding-bottom: 26%;
+    padding-top: 7%;
+}
+.zoho-logo{
+    width:9%;
+    /* margin-top:5%; */
+}
+.craft img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 9%;
+}
+.craft h1{
+    font-size:60px;
+    margin-top:2%;
+    font-weight:500;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    gap: 61px;
+}
+.color::before{
+    width: 8px;
+    height: 8px;
+    content: "";
+    position: absolute;
+    background-color: #e10225;
+    left: -20px;
+    top: 6px;
+    border-radius: 10px;
+}
+.list li{
+    position: relative;
+    list-style: none;
+    /* display:inline-block; */
+    font-weight:500;
+}
+.color2::before{
+    width: 8px;
+    height: 8px;
+    content: "";
+    position: absolute;
+    background-color: #ffeb3b;
+    left: -20px;
+    top: 6px;
+    border-radius: 10px;
+}
+.color3::before{
+    width: 8px;
+    height: 8px;
+    content: "";
+    position: absolute;
+    background-color: #64b5f6;
+    left: -20px;
+    top: 6px;
+    border-radius: 10px;
+}
+.white-bc{
+    /* height:15px; */
+    /* padding:10px; */
+}
+.white-bc p{
+    background-color: white;
+    color: black;
+    /* padding: 9px; */
+    font-size: 14px;
+    text-align: end;
+    padding-right: 13px;
+    font-family: 'Roboto';
+    font-weight:400;
+    margin:0;
+    padding:9px;
+    /* margin-top:10px; */
+}
+.list a{
+    color:white;
+    text-decoration:none;
+}
+.list{
+    /* transition-delay: 500ms; */
+}
+
