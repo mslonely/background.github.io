@@ -1,0 +1,221 @@
+.top-bar{
+    display: grid;
+    grid-template-columns: 80% 7% 6% 1%;
+    align-items:center;
+    padding: 7px 17px 7px 17px;
+}
+.top-bar span{
+    font-size: 13px;
+    font-weight: bold;
+}
+.second-line h3{
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+}
+.picture{
+    width: 113px;
+}
+.filter img{
+    width: 18px;
+    background: #f3f3f5;
+    padding: 6px 4px 5px 5px;
+    border-radius: 4px;
+    cursor:pointer;
+}
+.second-images{
+    display: grid;
+    grid-template-columns: 71% 10%;
+    padding: 12px 0;
+}
+.second-sec{
+    display: grid;
+    grid-template-columns: 59px 10px;
+    align-items: center;
+}
+.dec{
+    color: hsl(240deg 3% 65%);
+    font-size: 14px;
+    font-weight: 500;
+    position:relative;
+}
+.dec::after{
+    position: absolute;
+    content: "";
+    border: 2px solid hsl(240deg 3% 65%);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(45deg);
+    right: 16px;
+    top: 5px;
+    cursor:pointer;
+}
+.line{
+    display: grid;
+    grid-template-rows: 48% 10%;
+    text-align: center;
+    padding:0;
+}
+.second-line{
+    padding: 0 18px;
+}
+.line li{
+    list-style-type: none;
+}
+.day{
+    color:hsl(210deg 6% 57%);
+    font-size: 13px;
+    font-weight: 600;
+}
+.date{
+    color: hsl(186deg 49% 56%);
+    font-weight: 700;
+    font-size: 15px;
+    font-family: monospace;
+    margin-top:4px;
+    cursor:pointer;
+}
+.third-section{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10%;
+    gap: 14px;
+    padding: 0 23px 0px 23px;
+    background: hsl(186deg 100% 96%);
+    border-top: 1px solid hsl(194deg 33% 92%);
+    border-bottom: 1px solid hsl(194deg 33% 92%);
+}
+.date-one{
+    height: 18px;
+    border-radius: 13px;
+    padding: 4px 0;
+    background: hsl(188deg 92% 43%);
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: monospace;
+    /* margin-top:4px; */
+}
+.fourth-section{
+    height: 471px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    border-bottom:1px solid hsl(0deg 0% 96%);
+}
+.fourth-one{
+    border-right: 5px solid hsl(183deg 94% 82%);
+}
+.boxes{
+    position:relative;
+}
+.box{
+    display: grid;
+    grid-template-columns: 20% auto;
+    align-items: center;
+    background: hsl(210deg 75% 97%);
+    width: 77%;
+    padding: 3px 0px 3px 11px;
+    border-radius:34px;
+    position: absolute;
+    right: 75px;
+    top: 20px;
+    cursor:pointer;
+
+}
+.box span{
+    color: hsl(204deg 7% 59%);
+    font-size: 14px;
+    font-weight: 600;
+}
+.box.one{
+    top: 85px;
+    right: 23px;
+    background: hsl(252deg 71% 97%);
+}
+.box.two{
+    top: 141px;
+    padding: 3px 0px 4px 11px;
+    display: grid;
+    grid-template-columns: 25% auto;
+    right: 46px;
+    background: hsl(5deg 65% 97%);
+    width: 100%;
+}
+.box-four{
+    display: grid;
+    align-items: center;
+    background: hsl(210deg 75% 97%);
+    position: absolute;
+    top: 205px;
+    display: grid;
+    grid-template-columns: 42% auto;
+    padding: 7px 37px 7px 11px;
+    width: 66%;
+    right: -1px;
+    border-bottom-left-radius: 32px;
+    border-top-left-radius: 32px;
+    cursor:pointer;
+}
+.box-four span{
+    color: hsl(204deg 7% 59%);
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.box-four img{
+    width:64px;
+}
+.box.three{
+    background:hsl(252deg 71% 97%);
+    top:272px;
+    right:137px;
+    width: 61%;
+    display: grid;
+    grid-template-columns: 25% auto;
+}
+.box.five{
+    top: 329px;
+    display: grid;
+    grid-template-columns: 43% auto;
+    width: 36%;
+    right: 209px;
+}
+.round{
+    position:relative;
+    top: 405px;
+    left: 164px;
+}
+.round span{
+    position: absolute;
+    background: hsl(189deg 97% 43%);
+    color: hsl(185deg 91% 83%);
+    padding: 7px 15px;
+    border-radius: 34px;
+    font-size: 27px;
+    cursor:pointer;
+}
+.b-bar{
+    display: grid;
+    grid-template-rows: 73% 10%;
+    justify-items: center;
+    cursor:pointer;
+}
+.b-bar figcaption{
+    font-size: 10px;
+    color: hsl(220deg 3% 62%);
+    font-weight: 600;
+}
+.bottom-bar{
+    display: grid;
+    padding: 0 6px;
+    gap: 8px;
+    grid-template-columns: 19% 17% 17% 20% 18%;
+    padding-top: 4%;
+    border-top: 1px solid;
+    align-items:center;
+    border-top: 2px solid hsl(240deg 4% 95%);
+    padding-bottom:16px;
+}
+.cal{
+    color:hsl(185deg 99% 42%);
+}

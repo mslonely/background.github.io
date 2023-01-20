@@ -1,0 +1,11 @@
+.main-container{
+    width:320px;
+    margin: 0 auto;
+    background:white;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+    background:whitesmoke;
+}

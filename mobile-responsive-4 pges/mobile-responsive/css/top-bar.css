@@ -1,0 +1,37 @@
+.top-bar{
+    display: grid;
+    grid-template-columns: 80% 7% 6% 1%;
+    align-items:center;
+    padding: 7px 17px 7px 17px;
+}
+.top-bar span{
+    font-size: 13px;
+    font-weight: bold;
+}
+.second-line h3{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(225deg 6% 13%);
+    font-family: sans-serif;
+    /* position: relative; */
+}
+.sl-first{
+    border: 1px solid hsl(220deg 3% 59%);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(135deg);
+}
+.second-line span{
+    color: hsl(223deg 3% 56%);
+    font-size: 12px;
+    font-weight: 600;
+}
+.second-line{
+    display: grid;
+    grid-template-columns: 9% 70%;
+    padding: 5px 0 12px 21px;
+    border-bottom: 2px solid hsl(240deg 4% 95%);
+    
+}

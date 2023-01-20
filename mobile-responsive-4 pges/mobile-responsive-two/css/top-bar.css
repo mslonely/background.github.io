@@ -1,0 +1,82 @@
+.top-image img{
+    width:100%;
+}
+.create h3{
+    margin: 5px;
+    font-size: 23px;
+}
+.create span{
+    font-size: 12px;
+    font-weight: 600;
+    color: hsl(216deg 3% 64%);
+}
+.create{
+    text-align: center;
+}
+.img img{
+    width:37px;
+    cursor:pointer;
+}
+.img{
+    display: grid;
+    grid-template-columns: 13% 13% 13%;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 9%;
+}
+.create{
+    padding-top: 14%;
+}
+.input label{
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+}
+.input input::placeholder{
+    color:hsl(230deg 6% 82%);
+}
+.input input{
+    background: hsl(200deg 14% 96%);
+    border: none;
+    padding: 12px 10px 10px 12px;
+    width: 85%;
+    border-radius: 17px;
+    height: 14px;
+    margin-top: 7px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.inputs{
+    padding-left: 28px;
+    margin-top:10%;
+}
+.input.one{
+    margin-top:6%;
+}
+.input.one.two{
+    padding-bottom: 12%;
+}
+.blue-button button{
+    color: white;
+    background: hsl(187deg 100% 42%);
+    border: none;
+    padding: 12px 10px 11px 12px;
+    width: 85%;
+    border-radius: 17px;
+    /* height: 16px; */
+    margin-left: 8%;
+    cursor:pointer;
+}
+.last-line{
+    color: hsl(330deg 1% 50%);
+    font-size: 13px;
+    font-weight: 700;
+    display: grid;
+    grid-template-columns: 130px 43px;
+    justify-content: center;
+    padding-bottom: 15%;
+    margin-top: 7%;
+}
+.bluest{
+    color:hsl(187deg 100% 42%);
+}

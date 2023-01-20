@@ -1,0 +1,51 @@
+.bar{
+    display: grid;
+    height: 250px;
+    align-content: flex-end;
+    grid-template-rows: 20% 46%;
+    padding:0;
+}
+.bar li{
+    list-style-type: none;
+}
+.bar li:nth-child(1){
+    background-color: #8354e3;
+}
+.bar li:nth-child(2){
+    background:hsl(187deg 100% 42%);
+}
+/*  */
+.bar-chart{
+    display: grid;
+    grid-template-columns: repeat(8,10%);
+    gap:9px;
+    padding: 0 18px 0 15px;
+}
+.bar.one{
+    display: grid;
+    grid-template-rows: 19% 26%;
+}
+.bar.two{
+    display: grid;
+    grid-template-rows: 47% 47%;
+}
+.bar.three{
+    display: grid;
+    grid-template-rows: 36% 43%;
+}
+.bar.four{
+    display: grid;
+    grid-template-rows: 21% 20%;
+}
+.bar.five{
+    display: grid;
+    grid-template-rows: 25% 69%;
+}
+.bar.six{
+    display: grid;
+    grid-template-rows: 26% 26%;
+}
+.bar.seven{
+    display: grid;
+    grid-template-rows: 68% 26%;
+}
