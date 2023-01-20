@@ -1,0 +1,25 @@
+.bottom button{
+   background-color:hsl(156deg 80% 39%);
+   color:white;
+   border: none;
+   height:36px;
+    font-size: 14px;
+    font-weight: 300;
+    cursor:pointer;
+    border-radius:3px;
+}
+.red{
+    color:hsl(14deg 73% 52%);
+}
+.bottom p{
+    font-size:14px;
+}
+.blue{
+    color:hsl(211deg 65% 49%);
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 10% auto;
+    align-items:center;
+    gap: 1%;
+}

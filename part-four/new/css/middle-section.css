@@ -1,0 +1,197 @@
+.default{
+    color: hsl(211deg 64% 50%);
+    border-bottom: 2px solid hsl(211deg 64% 50%);
+    display: inline-block;
+}
+.middle-section{
+    width:90%;
+    padding: 10px 32px;
+}
+.assigned p{
+    font-size: 15px;
+    color: hsl(0deg 0% 44%);
+    font-weight: 500;
+}
+.unassigned{
+    border: 2px solid hsl(0deg 0% 87%);
+    width: 97px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: hsl(0deg 0% 97%);
+    cursor:pointer;
+}
+.unassigned h5{
+    color: hsl(0deg 0% 23%);
+    font-size: 15px;
+    font-weight: 500;
+}
+.unassigned img{
+    height: 9px;
+    width: 9px;
+}
+.assign{
+    display: grid;
+    grid-template-columns: 23px auto;
+    align-items: center;
+}
+.first-line{
+    display: grid;
+    grid-template-columns: 189px auto;
+    border-bottom: 1px dashed hsl(0deg 0% 89%);
+}
+.second-line-first{
+    display: grid;
+    grid-template-columns: 189px auto;
+    border-bottom: 1px dashed hsl(0deg 0% 89%);
+    height: 41px;
+}
+.unassigned-two::after{
+    right: 10px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid hsl(0deg 0% 53%);
+    position: absolute;
+    content: "";
+    top: 8px;
+}
+.unassigned-two{
+    position: relative;
+}
+.second-lines{
+    display: grid;
+    grid-template-columns: 47% 47%;
+    gap: 86px;
+}
+.none::before{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: hsl(210deg 7% 56%);
+    left: -12px;
+    top: 5px;
+    border-radius: 16px;
+}
+.unassigned-two.two{
+    margin-left:13px;
+}
+.unassigned-two.two::before{
+    position: absolute;
+    content: "Default";
+    right: 37px;
+    color: hsl(14deg 73% 58%);
+    font-size: 12px;
+    top: 3px;
+}
+.unassigned-two.three::before{
+    position: absolute;
+    content: "Default";
+    right: 37px;
+    color: hsl(14deg 73% 58%);
+    font-size: 12px;
+    top: 3px;
+}
+.unassigned-two-four::after{
+    position: absolute;
+    content: "";
+    background-image: url('../images/calender.png');
+    top: -10px;
+    width: 21px;
+    height: 21px;
+    background-repeat: no-repeat;
+    right: 4px;
+}
+.unassigned-two-four{
+    position: relative;
+}
+.unassigned-two-five{
+    position: relative;
+}
+.unassigned-two-five::after{
+    position: absolute;
+    content: "";
+    background-image: url('../images/numbers.png');
+    top: -1px;
+    width: 21px;
+    height: 21px;
+    background-repeat: no-repeat;
+    right: 4px;
+}
+.buttons button:nth-child(1){
+    color:hsl(0deg 0% 62%);
+    border:1px solid hsl(0deg 0% 88%);
+}
+.buttons button{
+    background: none;
+    border: 1px solid;
+    padding: 7px 14px;
+    border-radius: 2px;
+    cursor:pointer;
+}
+.buttons button:nth-child(2){
+    border:1px solid hsl(0deg 0% 77%);
+    margin-left:7px;
+}
+.buttons{
+    margin-top:39px;
+}
+.last-line{
+    display: grid;
+    grid-template-columns: 2% auto;
+    margin-top:30px;
+    align-items: center;
+    border-bottom:1px dashed hsl(0deg 0% 89%);
+    height:39px;
+}
+.last-line img{
+    width:16px;
+}
+.last-line p{
+    position:relative;
+}
+.last-line p::after{
+    left:99px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid hsl(0deg 0% 80%);
+    position: absolute;
+    content: "";
+    top: 8px;
+}
+.heading-four{
+    color: hsl(0deg 0% 22%);
+    font-weight: 400;
+}
+.green-flag{
+    width:12px;
+}
+.desc li:hover{
+    color:hsl(214deg 68% 60%);
+    border-bottom:2px solid hsl(214deg 68% 60%);
+}
+.assigned.six::after{
+    position: absolute;
+    content: "";
+    background-image: url(../images/round-question.png);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    top: 17px;
+    left: 61px;
+}
+.assigned.six{
+    position:relative;
+}
+.assigned.seven::after{
+    position: absolute;
+    content: "";
+    background-image: url(../images/round-question.png);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    top: 17px;
+    left: 125px;
+}
+.assigned.seven{
+    position:relative;
+}

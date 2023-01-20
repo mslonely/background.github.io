@@ -1,0 +1,86 @@
+.main-container{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color:rgb(20 20 20);
+}
+.leftside img{
+    width: 261px;
+    border-radius: 20px;
+    cursor:pointer;
+}
+.blackadam{
+    background-image: linear-gradient(90deg, rgb(26, 26, 26) 24.97%, rgb(26, 26, 26) 38.3%, rgba(26, 26, 26, 0.04) 97.47%, rgb(26, 26, 26) 100%),url('./images/blackadam-bg.png');
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    height:600px;
+}
+.full-page{
+    display:grid;
+    grid-template-columns: 17% 48% 5%;
+    justify-content: center;
+    margin-top:52px;
+    gap:2%;
+    padding-top:8%;
+    align-items:flex-start;
+}
+.rightside{
+    color:white;
+    margin-top:9%;
+    gap:10px;
+}
+.first{
+    display:flex;
+    align-items:center;
+}
+.premiere{
+    display:flex;
+    align-items:center;
+    gap:5px;
+    background-color: #1f253b;
+    padding: 2px 6px;
+    border-radius: 12px;
+}
+.rightside-two span{
+    color: #cdcdcd;
+    font-weight: bold;
+}
+.rightside-two{
+    display: flex;
+    align-items:center;
+    gap: 22px;
+    cursor:pointer;
+}
+.premiere img{
+    width:18px;
+}
+.premiere span{
+    font-size:13px;
+}
+.grey{
+    color: rgb(204 204 204);
+    padding-top:8px;
+}
+.red{
+    color:rgb(248 68 100);
+}
+.red:hover{
+    border-bottom:1px solid rgb(248 68 100);
+}
+.rightside h4{
+    font-weight: 400;
+}
+.buttons button{
+    background-color: #f84464;
+    padding: 15px 59px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius:12px;
+    cursor:pointer;
+}
+.rightside-two img{
+    width:31px;
+}
