@@ -1,0 +1,57 @@
+.green{
+    line-height:25px;
+}
+.green img{
+    width:60px;
+}
+.green figcaption{
+    font-size: 14px;
+    font-weight: 400;
+}
+.top-second{
+    display: grid;
+    grid-template-columns: 96px auto;
+    align-items: center;
+    padding: 14px 32px;
+    border-bottom: 1px solid hsl(0deg 0% 89%);
+    height: 106px;
+    box-shadow: 0px 9px 20px 0px hsl(0deg 0% 89%);
+}
+.green-texts h1{
+    font-size: 24px;
+    font-weight: 400;
+}
+.texts p{
+    color: hsl(0deg 0% 54%);
+    font-size: 13px;
+    font-weight: 400;
+}
+.follow span{
+    color: hsl(0deg 0% 54%);
+    font-size: 13px;
+    font-weight: 500;
+}
+.follow img{
+    width:13px;
+}
+.green-texts h6{
+    color: hsl(0deg 0% 54%);
+    font-size:12px;
+}
+.plus{
+    color: hsl(156deg 79% 39%);
+    background-color: hsl(163deg 47% 94%);
+    padding: 0px 11px 5px 11px;
+    border: 1px solid hsl(163deg 36% 86%);
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.texts{
+    display: grid;
+    grid-template-columns: repeat(2,25%);
+    align-items: center;
+}
+.green-texts{
+    line-height:0px;
+}
